@@ -1,0 +1,79 @@
+a {
+  text-decoration: none !important;
+  outline: none; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased; }
+
+p {
+  line-height: 1.8; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heebo", sans-serif; }
+
+.waves svg {
+  display: block; }
+
+.profile-section .profilePicture {
+  margin-top: -1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px; }
+.profile-section h1 {
+  color: #1f2933;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin: 0; }
+.profile-section .mdi:hover,
+.profile-section .mdi:focus,
+.profile-section .mdi:active {
+  color: #3997dc; }
+
+.section-module-title {
+  color: #787a82;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.section-module-left {
+  width: 250px; }
+
+.section-module-right {
+  max-width: 700px; }
+  .section-module-right p {
+    color: #3b3942;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 30px; }
+  .section-module-right .link-module-link {
+    border-bottom: 1px solid #3997dc;
+    color: #32404b;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .section-module-right a.link-module-link:hover,
+  .section-module-right a.link-module-link:focus,
+  .section-module-right a.link-module-link:active {
+    color: #3997dc; }
+
+@media (max-width: 768px) {
+  #about,
+  #experience,
+  #project,
+  #skill {
+    padding-top: 0px !important; }
+
+  .media:first-child {
+    display: block; }
+
+  .profile-section h1 {
+    font-size: 42px; } }

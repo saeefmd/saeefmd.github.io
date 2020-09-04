@@ -1,0 +1,144 @@
+//@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import 'functions';
+
+// Font
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Heebo', sans-serif;
+
+// Color variables
+// $primary: #3292a6;
+// $primary-overlay: rgba(50, 146, 166, 0.8);
+$white: #ffffff;
+$black: #000000;
+
+$primary: #5e62ff;
+$secondary: #f6f6f6;
+$success: #2dd6b7;
+$info: #3997dc;
+$warning: #ffbb13;
+$danger: #f43958;
+$dark: #fbfbfb;
+$muted: #9b9bae;
+$light: #393f46;
+$body-bg: #343a40;
+
+$bg-counter: #4a5158;
+$footer-bg: #fbfbfb;
+
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+
+body {
+  // margin-top: 105px;
+  font-family: $font-primary;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+
+  // Svg start
+}
+
+p {
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+}
+
+.waves {
+  svg {
+    display: block;
+  }
+}
+
+.profile-section {
+  .profilePicture {
+    margin-top: -1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+  }
+
+  h1 {
+    color: #1f2933;
+    // color: set-text-color(#1f2933);
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .mdi:hover,
+  .mdi:focus,
+  .mdi:active {
+    color: $info;
+  }
+}
+
+.section-module-title {
+  color: #787a82;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-module-left {
+  width: 250px;
+}
+
+.section-module-right {
+  max-width: 700px;
+
+  p {
+    color: #3b3942;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+  }
+
+  .link-module-link {
+    border-bottom: 1px solid $info;
+    color: #32404b;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  a.link-module-link:hover,
+  a.link-module-link:focus,
+  a.link-module-link:active {
+    color: $info;
+  }
+}
+
+@media (max-width: 768px) {
+  // body {
+  //   padding: 1rem;
+  //   margin-top: 2rem;
+  // }
+
+  #about,
+  #experience,
+  #project,
+  #skill {
+    padding-top: 0px !important;
+  }
+
+  .media:first-child {
+    display: block;
+  }
+
+  .profile-section {
+    h1 {
+      font-size: 42px;
+    }
+  }
+}
